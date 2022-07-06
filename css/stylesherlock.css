@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body{
+    font-family: Abel;
+    margin: auto 15% auto 15%;
+    background-color: #8ECAE6;
+}
+
+
+header{
+    background-color: #219EBC;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+article{
+    margin-top: 5px;
+    background-color: #023047;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    color: #edf6f9;
+    font-size: larger;
+}
+
+aside{
+    display: flex;
+    background-color: #023047;
+    border-radius: 20px;
+    color: #edf6f9;
+    padding: 5px;
+    font-size:x-large;
+
+}
+
+
+section{
+    border-radius: 20px;
+}
+
+.lista{
+    padding: 50px 0 0 0;
+}
+
+#materia{
+    display:inline-block;
+    background-color: #023047;
+    border-radius: 20px;
+    color:#edf6f9;
+    padding: 30px 30px 30px 30px;
+    font-size: x-large;
+}
+
+footer{
+    display: inline-block;
+    margin-top: 5px;
+    background-color: #219EBC;
+    border-radius: 20px;
+    text-align: center;
+    width:100%;
+
+}
+
+.voltar{
+    float:left;
+    display: flex;
+}

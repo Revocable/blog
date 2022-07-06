@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body{
+
+    font-family: Abel;
+    font-size: 20px;
+    background-image: url(../assets/background\ index.jpg);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.hr{
+    text-align: auto;
+    border: 2px solid #006D77;
+    border-radius: 40px;
+    width: 90%;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+@media(max-width:973px){
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.galeria{
+    margin-left: 10%;
+    display: flex;
+}
+
+.capa{
+    border-radius: 3%;
+    border-style: solid;
+    color: #99d3df;
+    width: 400px;
+}
